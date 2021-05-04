@@ -36,4 +36,7 @@ Making something from scratch has its drawbacks as it might take longer but in t
 - is simple becuase it uses Yaml
 - agentless
 - uses ssh to connect to any other server
-- 
+- works only on Linux and Mac (not on Windows)
+
+- ![image](https://user-images.githubusercontent.com/47173937/117027612-c5797080-acf4-11eb-8b6e-7219fe02df4c.png)
+
