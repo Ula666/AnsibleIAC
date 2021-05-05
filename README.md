@@ -90,6 +90,22 @@ sudo apt-get install ansible`
 
 
 - to update all available machines `ansible all -m shell -a "sudo apt-get update -y"`
+- to update all machines `ansible all -m shell -a "sudo apt-get update -y"`
+
+- command to upgrade `ansible all -m shell -a "sudo apt-get upgrade -y"`
+
+
+- playbooks are written in YAML with .yaml/.yml extension with instractions
+- each playbook has to start with three dashes ---
+- `sudo nano install_nginx.yml`
+- `ansible-playbook install_nginx.yml` 
+- `sudo nano install_sql.yml`
+- `ansible-playbook install_sql.yml`
+- make sure to have the right indentation!
+- `sudo nano install_nodejs.yml`
+- `ansible-playbook install_mogodb.yml`
+- to check the version of nodejs on web `ansible web -m shell -a "sudo nodejs --version"`
+- to check the version of mongodb on db `ansible db -m shell -a "sudo mongod --version"`
 
 
 
